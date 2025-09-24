@@ -26,7 +26,7 @@ const Header: React.FC = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
             <BookOpen className="h-8 w-8 text-blue-600" />
-            <span className="font-bold text-xl text-gray-900">BookStore</span>
+            <span className="font-bold text-xl text-gray-900">Albert Adjei Simons</span>
           </Link>
 
           {/* Desktop Navigation */}
@@ -42,6 +42,9 @@ const Header: React.FC = () => {
             </Link>
             <Link to="/contact" className="text-gray-700 hover:text-blue-600 font-medium">
               Contact
+            </Link>
+            <Link to="/gallery" className="text-gray-700 hover:text-blue-600 font-medium">
+              Gallery
             </Link>
           </nav>
 

@@ -52,7 +52,7 @@ const HomePage: React.FC = () => {
       />
 
       {/* Hero Section */}
-      <section className="bg-gradient-to-r from-blue-900 via-blue-800 to-indigo-900 text-white py-20">
+      <section className="bg-gradient-to-r from-indigo-600 via-purple-600 to-indigo-800 text-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
@@ -201,13 +201,26 @@ const HomePage: React.FC = () => {
                 Meet the Author
               </h2>
               <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-                Welcome to my literary world! I'm passionate about crafting stories that inspire, 
-                educate, and entertain. Each book in this collection represents hours of research, 
-                writing, and dedication to bringing you quality content.
-              </p>
-              <p className="text-lg text-gray-700 mb-8 leading-relaxed">
-                Whether you're looking for thought-provoking non-fiction or engaging fiction, 
-                you'll find something here that resonates with your interests and curiosities.
+                 Albert Adjei Simons is a believer, teacher, and author. He is a 
+committed member of the Methodist Church, precisely Wesley 
+Methodist, Agona Nkwanta. Through his faithfulness, God has 
+gifted him with healing and prophetic grace.
+ Albert’s educational journey began at Sekondi College, where 
+he completed his secondary education. He then attended 
+Komenda College of Education, earning a Diploma in Basic 
+Education. Later, he proceeded to the <span className='font-bold'>University of Cape Coast</span>, 
+where he earned a Bachelor of Arts in Education.
+ He was awakened to the faith at the tender age of fifteen (15) 
+in Tamale and has remained committed to serving God and 
+his people. Albert has served as the prayer Secretary at both 
+Sekondi College (SEKCO) and Komenda College of Education, 
+under the umbrella of GHAMSU local.
+ As a passionate young man, Albert has a heart for reorienting 
+the hearts and minds of this generation, especially the youth. 
+He has authored two books, The Mystery of Names and The Strive 
+for Greatness, which aim to awaken people through writings 
+hinged on principles from the word of God. His guiding 
+principle is, “To teach is to touch a heart.”
               </p>
               <Link
                 to="/about"

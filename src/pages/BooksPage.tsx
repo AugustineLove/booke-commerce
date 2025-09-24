@@ -82,9 +82,14 @@ const BooksPage: React.FC = () => {
     const { data: list, error: listError } = await supabase
   .storage
   .from('books')
-  .list('covers', { limit: 100 });
+  .list('covers');
 
-console.log('Files in cover folder:', list, listError);
+    if(error){
+      console.error('Error listing covers:', listError);
+    }
+    else{
+      console.log('Covers in storage:', list);
+    }
 
 
      // Attach signed URL to each book
@@ -94,7 +99,7 @@ console.log('Files in cover folder:', list, listError);
           .from('books')
           .createSignedUrl(book.cover_front_url, 60);
         console.log(`frontErr for ${book.title} signed ${book.cover_front_url}:`, frontErr);
-        console.log(`${frontErr}`)
+        console.log(`${front}`)
         return {
           ...book,
           cover_front_url: !frontErr ? front.signedUrl : null,

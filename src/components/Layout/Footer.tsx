@@ -11,7 +11,7 @@ const Footer: React.FC = () => {
           <div className="md:col-span-1">
             <div className="flex items-center space-x-2 mb-4">
               <BookOpen className="h-8 w-8 text-blue-400" />
-              <span className="font-bold text-xl">BookStore</span>
+              <span className="font-bold text-xl">Albert Adjei Simons</span>
             </div>
             <p className="text-gray-300 mb-4">
               Discover incredible stories and knowledge through our carefully curated collection of books.

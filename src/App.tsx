@@ -7,6 +7,9 @@ import Layout from './components/Layout/Layout';
 import HomePage from './pages/HomePage';
 import BooksPage from './pages/BooksPage';
 import BookDetailPage from './pages/BookDetailPage';
+import ContactPage from './pages/ContactPage';
+import GalleryPage from './pages/GalleryPage';
+import AboutPage from './pages/AboutPage';
 
 function App() {
   return (
@@ -19,6 +22,9 @@ function App() {
                 <Route index element={<HomePage />} />
                 <Route path="books" element={<BooksPage />} />
                 <Route path="books/:slug" element={<BookDetailPage />} />
+                <Route path='contact' element={<ContactPage />} />
+                <Route path='gallery' element={<GalleryPage />} />
+                <Route path="about" element={<AboutPage />} />
                 {/* Add more routes here as needed */}
               </Route>
             </Routes>
